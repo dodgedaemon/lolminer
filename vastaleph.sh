@@ -27,10 +27,10 @@ echo "STEP 7 of 9: Changing Directory"
 cd 1.82
 
 echo "STEP 8 of 9: Updating Wallet Address in mine_karlsen.sh"
-sudo sed -i 's/WALLET=karlsen:qqu40xsxzxhude64mt55l4p5cavlpenfp8jf0vj7qf8fqmdtl57z2z9jeur29.lolMinerWorker/WALLET=karlsen:qpgu9eszfavveg0y2kl7yr49ejcx6fmc3cxyfhvlx8vjqev9tf50sh5f4xzy0.lolMinerWorkerVast/g' mine_karlsen.sh > /dev/null 2>&1
+sudo sed -i 's/WALLET=1Gm1TL5MvN672qudFpLe8JkSX55F1peXEqBxBLnNaUfHz.lolMinerWorker/WALLET=1EMatzd28U4HGyxGhR3WXyetujeEjQDxNq71zz8Eecgbz.lolMinerWorkerVast/g' mine_aleph.sh > /dev/null 2>&1
 
 echo "STEP 9 of 9: Starting lolMiner in a Screen Session"
-sudo screen -dmS miner bash -c './mine_karlsen.sh; exec bash'
+sudo screen -dmS miner bash -c './mine_aleph.sh; exec bash'
 
 echo "-------------------------"
 echo "    MINING WITH LOLMINER  "
