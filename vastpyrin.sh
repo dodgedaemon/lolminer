@@ -8,7 +8,7 @@ echo "-------------------------"
 sudo apt -y upgrade > /dev/null 2>&1
 echo "STEP 1 of 9: Completed Packages Update"
 
-//sudo apt -y install ocl-icd-opencl-dev > /dev/null 2>&1
+# sudo apt -y install ocl-icd-opencl-dev > /dev/null 2>&1
 echo "STEP 2 of 9: Installed OpenCL"
 
 sudo apt -y install nano  > /dev/null 2>&1
