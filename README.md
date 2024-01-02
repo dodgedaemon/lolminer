@@ -6,13 +6,13 @@
   For single GPU:
   Karlsen
   ```
-  sudo apt update && sudo apt -y install wget && sudo wget https://raw.githubusercontent.com/dodgedaemon/lolminerkarlsen/main/vast.sh && sudo chmod +x vast.sh && sudo ./vast.sh
+  sudo apt update && sudo apt -y install wget && sudo wget https://raw.githubusercontent.com/dodgedaemon/lolminer/main/vast.sh && sudo chmod +x vast.sh && sudo ./vast.sh
   ```
   Alephium
   ```
-  sudo apt update && sudo apt -y install wget && sudo wget https://raw.githubusercontent.com/dodgedaemon/lolminerkarlsen/main/vastaleph.sh && sudo chmod +x vastaleph.sh && sudo ./vastaleph.sh
+  sudo apt update && sudo apt -y install wget && sudo wget https://raw.githubusercontent.com/dodgedaemon/lolminer/main/vastaleph.sh && sudo chmod +x vastaleph.sh && sudo ./vastaleph.sh
   ```
   Pyrin
   ```
-  sudo apt update && sudo apt -y install wget && sudo wget https://raw.githubusercontent.com/dodgedaemon/lolminerkarlsen/main/vastpyrin.sh && sudo chmod +x vastpyrin.sh && sudo ./vastpyrin.sh
+  sudo apt update && sudo apt -y install wget && sudo wget https://raw.githubusercontent.com/dodgedaemon/lolminer/main/vastpyrin.sh && sudo chmod +x vastpyrin.sh && sudo ./vastpyrin.sh
   ```
