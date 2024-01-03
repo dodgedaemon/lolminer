@@ -16,3 +16,11 @@
   ```
   sudo apt update && sudo apt -y install wget && sudo wget https://raw.githubusercontent.com/dodgedaemon/lolminer/main/vastpyrin.sh && sudo chmod +x vastpyrin.sh && sudo ./vastpyrin.sh
   ```
+  Clore
+  ```
+  sudo apt update && sudo apt -y install wget && sudo wget https://raw.githubusercontent.com/dodgedaemon/lolminer/main/vastclore.sh && sudo chmod +x vastclore.sh && sudo ./vastclore.sh
+  ```
+  AIPG
+  ```
+  sudo apt update && sudo apt -y install wget && sudo wget https://raw.githubusercontent.com/dodgedaemon/lolminer/main/vastaipg.sh && sudo chmod +x vastaipg.sh && sudo ./vastaipg.sh
+  ```
