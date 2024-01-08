@@ -24,7 +24,7 @@ echo "STEP 6 of 9: Changing Directory"
 cd 1.82a
 
 echo "STEP 7 of 9: Updating Pool Address in mine_pyrin.sh"
-sudo sed -i 's/WALLET=pyrin:qq92h3nryfwq0gkh73cwvjh9hhqlq2mank9sfxtgc99hqwn2ec6u2gszphr0u/WALLET=pyrin:qqyuygj8tla5nh3rdqhhed8kht3362aj0n9zrvk0y5wgj70ldp8qgwp25eugf.lolMinerWorkerVast/g' mine_pyrin.sh > /dev/null 2>&1
+sudo sed -i 's|POOL=pyrin.e4pool.com:12100|POOL=de.pyrin.herominers.com:1177|g' mine_pyrin.sh > /dev/null 2>&1
 
 echo "STEP 8 of 9: Updating Wallet Address in mine_pyrin.sh"
 sudo sed -i 's/WALLET=pyrin:qq92h3nryfwq0gkh73cwvjh9hhqlq2mank9sfxtgc99hqwn2ec6u2gszphr0u/WALLET=pyrin:qqyuygj8tla5nh3rdqhhed8kht3362aj0n9zrvk0y5wgj70ldp8qgwp25eugf.lolMinerWorkerVast/g' mine_pyrin.sh > /dev/null 2>&1
