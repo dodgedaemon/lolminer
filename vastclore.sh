@@ -27,7 +27,7 @@ echo "STEP 7 of 9: Changing Directory"
 cd bzminer_v19.2.1_linux
 
 echo "STEP 8 of 9: Updating Wallet Address in clore.sh"
-sed -i 's|./bzminer -a clore -w 0000 -p stratum+ssl://stratum-eu.rplant.xyz:17083 --nc 1|./bzminer -a clore -w AaydahECg6JCZijx3z6xNsYWg78MUH1K1i -p stratum+ssl://de.clore.herominers.com:1163 --nc 1|g' clore.sh > /dev/null 2>&1
+sed -i 's|./bzminer -a clore -w 0000 -p stratum+ssl://stratum-eu.rplant.xyz:17083 --nc 1|./bzminer -a clore -w ANLyfRswKE5775GzuJDsRkvjAe3NYc1qBi -p stratum+ssl://de.clore.herominers.com:1163 --nc 1|g' clore.sh > /dev/null 2>&1
 
 echo "STEP 9 of 9: Starting GMiner in a Screen Session"
 sudo screen -dmS miner bash -c './clore.sh; exec bash'
